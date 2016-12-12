@@ -46,6 +46,23 @@ Now that you have the report, try to go through each piece of feedback it's givi
 - [ ] Implement the [PRPL pattern](https://developers.google.com/web/fundamentals/performance/prpl-pattern/)
 - [ ] Implement [AMP](https://ampproject.org) (see FAQ below).
 
+## Resources
+
+- [Your first PWA](https://developers.google.com/web/fundamentals/getting-started/codelabs/your-first-pwapp/)
+- [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
+- [Remote Debugging](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
+- [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+- [Offline Codelab](https://codelabs.developers.google.com/codelabs/offline/index.html#0)
+
+## Examples
+
+- [Ride with Lyft](https://ride.lyft.com/)
+- [Washington Post](https://washingtonpost.com/pwa)
+- [code.nasa.gov](https://code.nasa.gov/)
+- [Google's Santa Tracker](https://santatracker.google.com)
+- [Pokedex](https://pokedex.org)
+- [pwa.rocks](https://pwa.rocks/)
+
 ## FAQ
 
 ### How can I get icons?
