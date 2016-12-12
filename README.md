@@ -65,6 +65,14 @@ Now that you have the report, try to go through each piece of feedback it's givi
 
 ## FAQ
 
+### How can I deploy my app?
+
+If you really want to test your app, I recommend pushing it to a live hosted environment somewhere. This is essential if you want to test adding it to your homescreen on your phone, or want to add AMP and have that actually work correctly.
+
+Here are two ways:
+- __Github Pages__. If you forked my repo, it should be easy to convert to a Github Pages repo.
+- __now__. If you have [zeit's brilliant `now` utility](https://zeit.co/now), you can just run `now` in the app folder to instantly push it as a static app to `your_app_name.now.sh`. (Don't have `now`? `npm install -g now`!)
+
 ### How can I get icons?
 
 Use [realfavicongenerator.net](http://realfavicongenerator.net/). This site also handily generates your `manifest.json` for you!
