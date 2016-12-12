@@ -1,17 +1,157 @@
 <!doctype html>
-<html lang="en">
+<html ⚡ lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>From Regressive to Progressive Web Apps - Web Developers Anonymous</title>
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 	<meta name="description" content="A fake conference all about Progressive Web Apps.">
-	<meta name="theme-color" content="#4285F4">
+	<link rel="canonical" href="https://webdevsanon.io">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=1">
 	<link rel="icon" type="image/png" href="/favicon-32x32.png?v=1" sizes="32x32">
 	<link rel="icon" type="image/png" href="/favicon-16x16.png?v=1" sizes="16x16">
 	<link rel="manifest" href="/manifest.json?v=1">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg?v=1" color="#5bbad5">
-	<link rel="stylesheet" type="text/css" href="/style.css">
+	<meta name="theme-color" content="#4285F4">
+	<style amp-custom>
+
+	@font-face {
+	    font-family: robotoBlack;
+	    src: url(/fonts/Roboto-Black.ttf) format("truetype");
+	}
+	@font-face {
+	    font-family: robotoRegular;
+	    src: url(/fonts/Roboto-Regular.ttf) format("truetype");
+	}
+
+	* {
+	  font-family: robotoRegular, sans-serif;
+	  line-height: 1.4;
+	}
+
+	html, body {
+	  margin: 0px;
+	  padding: 0px;
+	  overflow-x: hidden;
+	  font-size: 17px;
+	  background-color: #4285F4;
+	}
+
+	.banner {
+	  height: 250px;
+	  background: url(pic.jpg) center left no-repeat;
+	  background-size: 100%;
+	  display: flex;
+	  align-items: flex-end;
+	  text-shadow: 0 -6px 9px rgba(0,0,0,.5);
+	}
+	@media (min-width: 600px) {
+	  .banner {
+	    height: 600px;
+	  }
+	}
+
+	article {
+	  overflow-x: hidden;
+	  background: #fff;
+	  padding-bottom: 10vw;
+	  border-top: solid 10vw #34A853;
+	  border-bottom: solid 10vw #fbbc05;
+	  -webkit-transform: skewY(-6deg);
+	  transform: skewY(-6deg);
+	}
+	h2, h3, h4 {
+	  font-size: 22px;
+	}
+	h1, h2, h3, h4, .title b {
+	  text-transform: uppercase;
+	}
+	h1, h2, h3 {
+	  margin: 0px;
+	  padding: 0px;
+	}
+
+	h2, h3, section {
+	  padding: 15px 25px;
+	}
+
+	li {
+	  padding: 15px 0;
+	}
+
+	h1 {
+	  font-size: 15vw;
+	  color: #fbbc05;
+	  margin: 0 0 -6vw -5vw;
+	  font-family: robotoBlack, sans-serif;
+	  text-transform: uppercase;
+	}
+
+	h2 {
+	  background: #fbbc05;
+	  color: #fff;
+	  font-family: robotoBlack, sans-serif;
+	}
+
+	h3 {
+	  color: #fff;
+	  background: #ea4334;
+	}
+	h3 a, h3 time {
+	  color: #fff;
+	}
+	h4 {
+	  font-family: robotoBlack, sans-serif;
+	  margin: 20px 0 5px;
+	  padding: 0;
+	  border-bottom: solid 3px #4285F4;
+	}
+	.about p, .blurb {
+	  max-width: 800px;
+	}
+	.program {
+	  list-style: none;
+	  margin: 0;
+	  padding: 0;
+	}
+	.program li {
+	   display: flex;
+	}
+	.program time {
+	  display: inline-block;
+	  width: 60px;
+	  flex-shrink: 0;
+	  color: #ea4334;
+	}
+	.title {
+	  display: inline-block;
+	  font-family: robotoRegular, sans-serif;
+	}
+	.title b {
+	  font-family: robotoBlack, sans-serif;
+	}
+	</style>
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "Event",
+			"name": "Web Developers Anonymous",
+			"organizer": "Google",
+			"startDate": "2016-11-11T10:00",
+			"location": {
+				"@type": "Place",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "San Francisco",
+					"postalCode": "94105",
+					"streetAddress": "301 Howard Street, 4th Floor"
+				}
+			},
+			"description": "From Regressive to Progressive Web Apps"
+		}
+	</script>
+	<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+	<script async src="https://cdn.ampproject.org/v0.js"></script>
+	<script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
 </head>
 <body>
 	<article>
@@ -52,10 +192,10 @@
 			</ol>
 		</section>
 	</article>
-	<script>
-		if ("serviceWorker" in navigator) {
-			navigator.serviceWorker.register("/sw.js");
-		}
-	</script>
+	<amp-install-serviceworker
+		src="//127.0.0.1:8887/sw.js"
+		data-iframe-src="//127.0.0.1:8887/sw.html"
+		layout="nodisplay">
+	</amp-install-serviceworker>
 </body>
 </html>
